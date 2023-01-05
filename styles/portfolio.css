@@ -66,7 +66,7 @@ main {
   margin: 0 auto;
 }
 
-section{
+section {
   margin-top: 130px;
 }
 
@@ -123,13 +123,79 @@ section{
   margin-bottom: 20px;
 }
 
-.skill-description{
+.skill-description {
   color: #757575;
-  
 }
 
-.skill{
-  background: #FFFFFF;
+.skill {
+  background: #ffffff;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-  border-radius: 5px; padding: 30px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* resume styles */
+.resume-content{
+  display: flex;
+  gap: 24px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.resume .title {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+ 
+}
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+ 
+}
+.resume .description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.resume-item{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.resume-btn{
+margin-top: 30px;
+display: block;
+text-align: center;
+
+}
+
+/* contract section styles */
+.contact{
+display: flex;
+gap: 10px;
+background: #fff8f3;
+padding: 130px 200px;
+}
+
+.contact input[type=text], input[type=email], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+
+}
+
+.section-description{
+
+}
+
+.contact a{
+  text-decoration: none;
 }
